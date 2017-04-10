@@ -1,0 +1,4 @@
+table.table thead .no_sorting {
+    background: none !important;
+    cursor: default;
+}
