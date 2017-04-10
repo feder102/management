@@ -12,7 +12,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><?php echo $this->Html->link('<span class="glyphicon glyphicon-user"></span>', array('action' => 'index','controller'=>'clients'), array('title' => 'Clientes', 'escape' => false)); ?></li>
             <li>             <?php echo $this->Html->link('<span class="glyphicon glyphicon-usd"></span>', array('action' => 'index','controller'=>'sales'), array('title' => 'Ventas', 'escape' => false)); ?></li>
-            <li><a href="">Cuentas clientes</a></li>
+            <li>            <?php echo $this->Html->link('<span class="glyphicon glyphicon-tasks"></span>', array('action' => 'index','controller'=>'acount_sales'), array('title' => 'Cuentas clientes', 'escape' => false)); ?></li>
             <li><a href="">Devoluciones</a></li>
             <li><a href="garment">Prenda</a></li>
             <li><a href="">Cuentas</a></li>
